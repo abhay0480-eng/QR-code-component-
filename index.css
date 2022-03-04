@@ -1,0 +1,48 @@
+/* .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 100px 0px 100px 0px;
+  font-family: "Inter", sans-serif;
+  background-color: hsl(220, 15%, 55%);
+}
+.card {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  margin: auto;
+  border-radius: 10px;
+}
+.qr-image {
+  height: 320px;
+  position: relative;
+  top: 35px;
+  display: flex;
+  justify-content: center;
+}
+.qr-code {
+  height: 320px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 80px;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+p {
+  text-align: center;
+  margin-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
